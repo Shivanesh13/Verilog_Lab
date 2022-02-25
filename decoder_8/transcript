@@ -1,0 +1,191 @@
+# Compile of decoder.v was successful.
+# Compile of decoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.decoder_tb
+# vsim -gui work.decoder_tb 
+# Start time: 19:06:08 on Feb 11,2022
+# Loading work.decoder_tb
+# Loading work.decoder
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/decoder_tb/*
+add wave -position insertpoint sim:/decoder_tb/D/*
+run -all
+# In = 000, Out = zzzzzzzz, Enable = 0
+# In = 100, Out = 00010000, Enable = 1
+# In = 001, Out = 00000010, Enable = 1
+# In = 011, Out = 00001000, Enable = 1
+# In = 101, Out = 00100000, Enable = 1
+# In = 010, Out = 00000100, Enable = 1
+# In = 001, Out = 00000010, Enable = 1
+# In = 101, Out = 00100000, Enable = 1
+# In = 101, Out = zzzzzzzz, Enable = 0
+# ** Note: $finish    : C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v(22)
+#    Time: 100 ps  Iteration: 0  Instance: /decoder_tb
+# 1
+# Break in Module decoder_tb at C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v line 22
+# Compile of decoder.v was successful.
+# Compile of decoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.decoder_tb
+# End time: 19:15:42 on Feb 11,2022, Elapsed time: 0:09:34
+# Errors: 0, Warnings: 6
+# vsim -gui work.decoder_tb 
+# Start time: 19:15:42 on Feb 11,2022
+# Loading work.decoder_tb
+# Loading work.decoder
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'D'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /decoder_tb/D File: C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v Line: 6
+# ** Warning: (vsim-3722) C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v(6): [TFMPC] - Missing connection for port 'IDLE'.
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/decoder_tb/D/*
+add wave -position insertpoint sim:/decoder_tb/*
+run -all
+# In = 000, Out = zzzzzzzz, Enable = 0
+# In = 100, Out = 00010000, Enable = 1
+# In = 001, Out = 00010000, Enable = 1
+# In = 011, Out = 00001000, Enable = 1
+# In = 101, Out = 00100000, Enable = 1
+# In = 010, Out = 00000100, Enable = 1
+# In = 001, Out = 00000100, Enable = 1
+# In = 101, Out = 00100000, Enable = 1
+# In = 111, Out = 10000000, Enable = 1
+# In = 110, Out = 01000000, Enable = 1
+# In = 110, Out = zzzzzzzz, Enable = 0
+# ** Note: $finish    : C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v(25)
+#    Time: 200 ps  Iteration: 0  Instance: /decoder_tb
+# 1
+# Break in Module decoder_tb at C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v line 25
+# Compile of decoder.v was successful.
+# Compile of decoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.decoder_tb
+# End time: 19:17:57 on Feb 11,2022, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 4
+# vsim -gui work.decoder_tb 
+# Start time: 19:17:57 on Feb 11,2022
+# Loading work.decoder_tb
+# Loading work.decoder
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'D'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /decoder_tb/D File: C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v Line: 6
+# ** Warning: (vsim-3722) C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v(6): [TFMPC] - Missing connection for port 'IDLE'.
+# WARNING: No extended dataflow license exists
+# Compile of decoder.v was successful.
+# Compile of decoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.decoder_tb
+# End time: 19:21:27 on Feb 11,2022, Elapsed time: 0:03:30
+# Errors: 0, Warnings: 4
+# vsim -gui work.decoder_tb 
+# Start time: 19:21:27 on Feb 11,2022
+# Loading work.decoder_tb
+# Loading work.decoder
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'D'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /decoder_tb/D File: C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v Line: 6
+# ** Warning: (vsim-3722) C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v(6): [TFMPC] - Missing connection for port 'IDLE'.
+add wave -position insertpoint sim:/decoder_tb/*
+add wave -position insertpoint sim:/decoder_tb/D/*
+run -all
+# In = 000, Out = zzzzzzzz, Enable = 0
+# In = 100, Out = 00010000, Enable = 1
+# In = 001, Out = 00000010, Enable = 1
+# In = 011, Out = 00001000, Enable = 1
+# In = 101, Out = 00100000, Enable = 1
+# In = 010, Out = 00000100, Enable = 1
+# In = 001, Out = 00000010, Enable = 1
+# In = 101, Out = 00100000, Enable = 1
+# In = 111, Out = 10000000, Enable = 1
+# In = 110, Out = 01000000, Enable = 1
+# In = 110, Out = zzzzzzzz, Enable = 0
+# ** Note: $finish    : C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v(25)
+#    Time: 200 ps  Iteration: 0  Instance: /decoder_tb
+# 1
+# Break in Module decoder_tb at C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v line 25
+# Compile of decoder.v was successful.
+# Compile of decoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.decoder_tb
+# End time: 19:23:06 on Feb 11,2022, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 4
+# vsim -gui work.decoder_tb 
+# Start time: 19:23:06 on Feb 11,2022
+# Loading work.decoder_tb
+# Loading work.decoder
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/decoder_tb/*
+add wave -position insertpoint sim:/decoder_tb/D/*
+run -all
+# In = 000, Out = zzzzzzzz, Enable = 0, IDLE = 1
+# In = 100, Out = 00010000, Enable = 1, IDLE = 0
+# In = 001, Out = 00000010, Enable = 1, IDLE = 0
+# In = 011, Out = 00001000, Enable = 1, IDLE = 0
+# In = 101, Out = 00100000, Enable = 1, IDLE = 0
+# In = 010, Out = 00000100, Enable = 1, IDLE = 0
+# In = 001, Out = 00000010, Enable = 1, IDLE = 0
+# In = 101, Out = 00100000, Enable = 1, IDLE = 0
+# In = 111, Out = 10000000, Enable = 1, IDLE = 0
+# In = 110, Out = 01000000, Enable = 1, IDLE = 0
+# In = 110, Out = zzzzzzzz, Enable = 0, IDLE = 0
+# ** Note: $finish    : C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v(26)
+#    Time: 200 ps  Iteration: 0  Instance: /decoder_tb
+# 1
+# Break in Module decoder_tb at C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v line 26
+# Compile of decoder.v was successful.
+# Compile of decoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.decoder_tb
+# End time: 19:24:55 on Feb 11,2022, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 2
+# vsim -gui work.decoder_tb 
+# Start time: 19:24:55 on Feb 11,2022
+# Loading work.decoder_tb
+# Loading work.decoder
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/decoder_tb/*
+add wave -position insertpoint sim:/decoder_tb/D/*
+run -all
+# In = 000, Out = zzzzzzzz, Enable = 0, IDLE = 0
+# In = 100, Out = 00010000, Enable = 1, IDLE = 0
+# In = 001, Out = 00000010, Enable = 1, IDLE = 0
+# In = 011, Out = 00001000, Enable = 1, IDLE = 0
+# In = 101, Out = 00100000, Enable = 1, IDLE = 0
+# In = 010, Out = 00000100, Enable = 1, IDLE = 0
+# In = 001, Out = 00000010, Enable = 1, IDLE = 0
+# In = 101, Out = 00100000, Enable = 1, IDLE = 0
+# In = 111, Out = 10000000, Enable = 1, IDLE = 0
+# In = 110, Out = 01000000, Enable = 1, IDLE = 0
+# In = 110, Out = zzzzzzzz, Enable = 0, IDLE = 0
+# ** Note: $finish    : C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v(27)
+#    Time: 200 ps  Iteration: 0  Instance: /decoder_tb
+# 1
+# Break in Module decoder_tb at C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v line 27
+# Compile of decoder.v was successful.
+# Compile of decoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.decoder_tb
+# End time: 19:28:55 on Feb 11,2022, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 2
+# vsim -gui work.decoder_tb 
+# Start time: 19:28:55 on Feb 11,2022
+# Loading work.decoder_tb
+# Loading work.decoder
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/decoder_tb/*
+add wave -position insertpoint sim:/decoder_tb/D/*
+run -all
+# In = 000, Out = zzzzzzzz, Enable = 0, IDLE = 0
+# In = 100, Out = 00010000, Enable = 1, IDLE = 0
+# In = 001, Out = 00000010, Enable = 1, IDLE = 0
+# In = 011, Out = 00001000, Enable = 1, IDLE = 0
+# In = 101, Out = 00100000, Enable = 1, IDLE = 0
+# In = 010, Out = 00000100, Enable = 1, IDLE = 0
+# In = 001, Out = 00000010, Enable = 1, IDLE = 0
+# In = 101, Out = 00100000, Enable = 1, IDLE = 0
+# In = 000, Out = zzzzzzzz, Enable = 1, IDLE = 1
+# In = 111, Out = 10000000, Enable = 1, IDLE = 0
+# In = 110, Out = 01000000, Enable = 1, IDLE = 0
+# In = 110, Out = zzzzzzzz, Enable = 0, IDLE = 0
+# ** Note: $finish    : C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v(28)
+#    Time: 200 ps  Iteration: 0  Instance: /decoder_tb
+# 1
+# Break in Module decoder_tb at C:/Users/G Shivanesh/Desktop/Verilog_labs/lab3_extras/decoder_8/decoder_tb.v line 28

@@ -1,0 +1,26 @@
+module decoder (
+    In,enable,Out
+);
+    input [2:0]In;
+    input enable;
+    output [7:0]Out;
+    reg [7:0]shift,Num;
+
+    task shift_op;
+    input [2:0]In;
+    begin
+        shift = Num << In;
+    end
+    endtask
+
+    task initialize;
+    begin
+        Num = 8b'1;
+    end
+    endtask
+
+    always @(*) begin
+        initialize;
+        shift_op;
+    end
+endmodule

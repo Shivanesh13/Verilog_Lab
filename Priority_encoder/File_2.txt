@@ -1,0 +1,12 @@
+In = 00010010, Out = 100, IDLE = 0
+In = 11000000, Out = 111, IDLE = 0
+In = 11000010, Out = 111, IDLE = 0
+In = 00000000, Out = 000, IDLE = 1
+In = 00000100, Out = 010, IDLE = 0
+In = 10001010, Out = 111, IDLE = 0
+In = 10101010, Out = 111, IDLE = 0
+In = 10101110, Out = 111, IDLE = 0
+In = 11110100, Out = 111, IDLE = 0
+In = 00000011, Out = 001, IDLE = 0
+In = 00001111, Out = 011, IDLE = 0
+In = 11000010, Out = 111, IDLE = 0

@@ -1,0 +1,29 @@
+{C:/Users/G Shivanesh/Desktop/Class_assign/Priority_encoder/priority.v} {1 {vlog -work work -stats=none {C:/Users/G Shivanesh/Desktop/Class_assign/Priority_encoder/priority.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module priority
+
+Top level modules:
+	priority
+
+} {} {}} {C:/Users/G Shivanesh/Desktop/Class_assign/Priority_encoder/encoder.v} {1 {vlog -work work -stats=none {C:/Users/G Shivanesh/Desktop/Class_assign/Priority_encoder/encoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module encoder
+
+Top level modules:
+	encoder
+
+} {} {}} {C:/Users/G Shivanesh/Desktop/Class_assign/Priority_encoder/encoder_tb_1.v} {1 {vlog -work work -stats=none {C:/Users/G Shivanesh/Desktop/Class_assign/Priority_encoder/encoder_tb_1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module encoder_tb_1
+
+Top level modules:
+	encoder_tb_1
+
+} {} {}} {C:/Users/G Shivanesh/Desktop/Class_assign/Priority_encoder/priority_encoder.v} {1 {vlog -work work -stats=none {C:/Users/G Shivanesh/Desktop/Class_assign/Priority_encoder/priority_encoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module priority_encoder
+
+Top level modules:
+	priority_encoder
+
+} {} {}}

@@ -1,0 +1,15 @@
+{C:/Users/G Shivanesh/Desktop/Verilog_labs/lab1_extras/Ass_5/Bidirectional.v} {1 {vlog -work work -stats=none {C:/Users/G Shivanesh/Desktop/Verilog_labs/lab1_extras/Ass_5/Bidirectional.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Bidirectional
+
+Top level modules:
+	Bidirectional
+
+} {} {}} {C:/Users/G Shivanesh/Desktop/Verilog_labs/lab1_extras/Ass_5/Bidirectional_tb.v} {1 {vlog -work work -stats=none {C:/Users/G Shivanesh/Desktop/Verilog_labs/lab1_extras/Ass_5/Bidirectional_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Bidirectional_tb
+
+Top level modules:
+	Bidirectional_tb
+
+} {} {}}

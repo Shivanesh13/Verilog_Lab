@@ -1,0 +1,31 @@
+module encoder_tb_1 ()
+);
+    reg [7:0]In;
+    wire [2:0]Out;
+    reg [7:0]mem[0:11];
+    wire IDLE;
+    priority_encoder En(In,IDLE,Out);
+    integer i,chanel_1;
+
+    initial begin
+        In = 8'b0;
+        #100 $finish
+    end
+
+    initial begin
+        $readmemb("File_1.txt",mem);
+    end
+
+    initial begin
+        for (i = 0;i<12 ;i = i+1 ) begin
+            In = mem[i];
+            #10;
+        end
+    end
+
+    initial begin
+        chanel_1 = $fopen("File_2.txt");
+        $fmonitor("In = %b, Out = %b, IDLE = %b",In,Out,IDLE);
+        $fclose(chanel_1);
+    end
+endmodule

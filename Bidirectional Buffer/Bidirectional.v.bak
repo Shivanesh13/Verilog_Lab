@@ -1,0 +1,18 @@
+module Bidirectional (
+    A,B,en
+);
+    inout A,B;
+    reg Data_in,Data_out;
+    input en;
+    assign A = (en)?1'bz:Data_out;
+    assign B = (en)?Data_out:1'bz;
+    always @(*) begin
+        if(en)begin
+            Data_out = A;
+        end
+        else begin
+            Data_out = B;
+        end
+    end    
+
+endmodule

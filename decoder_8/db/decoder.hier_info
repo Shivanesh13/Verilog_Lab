@@ -1,0 +1,27 @@
+|decoder
+In[0] => ShiftLeft0.IN11
+In[0] => Equal0.IN7
+In[1] => ShiftLeft0.IN10
+In[1] => Equal0.IN6
+In[2] => ShiftLeft0.IN9
+In[2] => Equal0.IN5
+enable => always0.IN1
+enable => Out[0].OE
+enable => Out[1].OE
+enable => Out[2].OE
+enable => Out[3].OE
+enable => Out[4].OE
+enable => Out[5].OE
+enable => Out[6].OE
+enable => Out[7].OE
+Out[0] <= Out[0].DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= Out[1].DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= Out[2].DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= Out[3].DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= Out[4].DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= Out[5].DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= Out[6].DB_MAX_OUTPUT_PORT_TYPE
+Out[7] <= Out[7].DB_MAX_OUTPUT_PORT_TYPE
+IDLE <= always0.DB_MAX_OUTPUT_PORT_TYPE
+
+
